@@ -1,0 +1,67 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  header, nav, section, aside, footer{
+    background: #ebebeb;
+  }
+  
+  header{
+    padding: 30px;
+  }
+  
+  nav{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  
+  article{
+    color: #ebebeb;
+    background: #777;
+    float: left;  
+    padding: 30px;
+    margin: 10px;
+    height: 200px;
+    width: 85%;
+  }
+  
+  h1, p{
+    color: #777;
+    background: #ebebeb;
+    float: left;
+    padding: 20px;
+    width: 85%;
+    margin: 5px;
+  }
+  
+  section{
+    float: left;
+    width: 51.515625%;
+    height: 275px;
+    margin: 0px;
+    padding: 40px;
+  }
+  
+  aside{
+    float:right;
+    padding: 40px;
+    width: 275px;
+    height: 275px;
+  }
+  
+  .clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  footer{
+    padding: 30px;
+    margin-top: 20px;
+  }
